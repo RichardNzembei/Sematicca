@@ -4,17 +4,39 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
     "@nx/js": "22.0.2",
+    "@nx/next": "^22.0.2",
+    "@nx/node": "^22.0.2",
+    "@nx/react": "^22.0.2",
     "@swc-node/register": "~1.9.1",
+    "@swc/cli": "~0.6.0",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@types/node": "20.19.9",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "10.4.13",
     "nx": "22.0.2",
+    "patch-package": "^8.0.1",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.3",
     "tslib": "^2.3.0",
     "typescript": "~5.9.2"
   },
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/*",
+    "sematicca--site-com",
+    "sematicca-system-com",
+    "core",
+    "knex",
+    "react"
+  ],
+  "dependencies": {
+    "next": "~15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }

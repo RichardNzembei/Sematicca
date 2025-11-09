@@ -2,5 +2,21 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./sematicca--site-com"
+    },
+    {
+      "path": "./sematicca-system-com"
+    },
+    {
+      "path": "./core"
+    },
+    {
+      "path": "./knex"
+    },
+    {
+      "path": "./react"
+    }
+  ]
 }

@@ -1,29 +1,63 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
-    "production": [
-      "default"
-    ],
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "production": ["default"],
     "sharedGlobals": []
   },
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
       "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
+        "typecheck": { "targetName": "typecheck" },
         "build": {
           "targetName": "build",
           "configName": "tsconfig.lib.json",
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
+      },
+      "exclude": ["core/*"]
+    },
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "serveStaticTargetName": "serve-static",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "include": ["core/*"],
+      "options": {
+        "typecheck": { "targetName": "typecheck" }
       }
     }
-  ]
+  ],
+  "generators": {
+    "@nx/next": {
+      "application": { "style": "tailwind", "linter": "none" }
+    },
+    "@nx/react": {
+      "library": { "unitTestRunner": "none" }
+    }
+  },
+  "targetDefaults": {
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    }
+  },
+  "projects": {
+    "@sematica/sematicca-system-com": "@sematica/sematicca-system-com",
+    "@sematica/sematicca--site-com": "@sematica/sematicca--site-com",
+    "@sematica/react": "@sematica/react",
+    "@sematica/core": "@sematica/core",
+    "@sematica/knex": "@sematica/knex"
+  }
 }

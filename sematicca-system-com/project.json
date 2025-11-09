@@ -1,0 +1,29 @@
+{
+  "name": "@sematica/sematicca-system-com",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "@sematica/sematicca-system-com/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/next:server",
+      "options": {
+        "buildTarget": "@sematica/sematicca-system-com:build",
+        "dev": true
+      },
+      "configurations": {
+        "production": {
+          "dev": false,
+          "buildTarget": "@sematica/sematicca-system-com:build:production"
+        }
+      }
+    },
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/@sematica/sematicca-system-com"
+      }
+    }
+  },
+  "tags": []
+}
