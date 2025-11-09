@@ -3011,3 +3011,94 @@ Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
 [NX v22.0.2 Daemon Server] - 2025-11-09T17:17:21.924Z - [WATCHER]: Stopping the watcher for /home/saint/Documents/Sematica (sources)
 [NX v22.0.2 Daemon Server] - 2025-11-09T17:17:21.931Z - [WATCHER]: Stopping the watcher for /home/saint/Documents/Sematica (outputs)
 [NX v22.0.2 Daemon Server] - 2025-11-09T17:17:21.942Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:41.567Z - Started listening on: /tmp/9e6528910863bfa2e66d/d.sock
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:41.570Z - [WATCHER]: Subscribed to changes within: /home/saint/Documents/Sematica (native)
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:41.575Z - Established a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:41.580Z - Closed a connection. Number of open connections: 0
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:41.600Z - Established a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:41.601Z - Closed a connection. Number of open connections: 0
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:41.602Z - Established a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:41.606Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 10883 code loading' 13.106773000000004
+Time for 'plugin worker 10884 code loading' 10.450156000000007
+Time for 'plugin worker 10898 code loading' 10.166617000000002
+Time for 'plugin worker 10896 code loading' 11.296007000000003
+Time for 'plugin worker 10885 code loading' 16.191110999999992
+Time for 'plugin worker 10905 code loading' 26.291134
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.350Z - Time taken for 'Load Nx Plugin: /home/saint/Documents/Sematica/node_modules/nx/src/plugins/package-json' 739.360077ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.395Z - Time taken for 'Load Nx Plugin: /home/saint/Documents/Sematica/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 784.1142940000001ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.518Z - Time taken for 'loadDefaultNxPlugins' 908.4967790000001ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.541Z - Time taken for 'Load Nx Plugin: @nx/js/typescript' 932.197987ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.694Z - Time taken for 'Load Nx Plugin: @nx/next/plugin' 1085.7387999999999ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.746Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.749Z - [REQUEST]: 
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.749Z - [REQUEST]: 
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.755Z - No files changed, but no in-memory cached project graph found. Recomputing it...
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.820Z - Time taken for 'loadSpecifiedNxPlugins' 1138.081253ms
+Time for '@nx/js/typescript:createNodes' 17.41283499999986
+Time for 'nx/core/project-json:createNodes' 0.947456000000102
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.851Z - Established a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.851Z - Established a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.852Z - Closed a connection. Number of open connections: 2
+Time for '@nx/js/typescript:createNodes' 81.94898199999989
+Time for 'nx/core/package-json:createNodes' 55.973015999999916
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.892Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.892Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.892Z - Handled json message HASH_GLOB. Handling time: 24. Response time: 1.
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 75.32648599999993
+Time for 'total for sendMessageToDaemon()' 42.643732
+Time for 'deserialize daemon response' 0.2975089999999909
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.905Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.909Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:42.910Z - Handled json message HASH_GLOB. Handling time: 8. Response time: 5.
+Time for '@nx/next/plugin:createNodes' 833.4272659999999
+Time for 'total for sendMessageToDaemon()' 11.020410000000084
+Time for 'deserialize daemon response' 0.04211299999997209
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:43.684Z - Time taken for 'build-project-configs' 884.860923ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:43.697Z - Time taken for '@nx/js/typescript:createDependencies' 19.69845499999974ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:43.698Z - Time taken for '@nx/js/typescript:createDependencies' 20.76083299999982ms
+Time for 'build typescript dependencies' 528.7851620000001
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.259Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.261Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.269Z - Wrote project graph cache to /home/saint/Documents/Sematica/.nx/workspace-data/project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.269Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.270Z - Time taken for 'total for creating and serializing project graph' 2663.116403ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.274Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.275Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 2663. Response time: 6.
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.283Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.283Z - Done responding to the client handleContextFileData
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.283Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.287Z - Closed a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.361Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.685Z - Established a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.686Z - Established a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.687Z - Closed a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.687Z - Established a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.687Z - Closed a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.687Z - Established a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.688Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.689Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.696Z - Wrote project graph cache to /home/saint/Documents/Sematica/.nx/workspace-data/project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.696Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.697Z - Time taken for 'total for creating and serializing project graph' 7.524190999999973ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.697Z - Established a connection. Number of open connections: 4
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.697Z - Closed a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.698Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.699Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.706Z - Wrote project graph cache to /home/saint/Documents/Sematica/.nx/workspace-data/project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.706Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.707Z - Time taken for 'total for creating and serializing project graph' 8.176081999999951ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.709Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.709Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 8. Response time: 13.
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.712Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.713Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 8. Response time: 7.
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.745Z - [SYNC]: @nx/js:typescript-sync changes: sematicca-system-com/tsconfig.json
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.745Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 383.64370099999996ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.746Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.747Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.758Z - Wrote project graph cache to /home/saint/Documents/Sematica/.nx/workspace-data/project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.758Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.760Z - Time taken for 'total for creating and serializing project graph' 12.068889000000127ms
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.763Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.763Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 12. Response time: 5.
+[NX v22.0.2 Daemon Server] - 2025-11-09T17:20:44.774Z - Established a connection. Number of open connections: 4

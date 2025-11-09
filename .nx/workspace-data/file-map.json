@@ -40,119 +40,119 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "atlasgo/hcl/s_user.hcl",
-        "hash": "14310010521775036096"
-      },
-      {
-        "file": "atlasgo/hcl/atlas.hcl",
-        "hash": "17515156571277341918"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "5319384524332115475"
-      },
-      {
-        "file": "package.json",
-        "hash": "4706130380703257383"
-      },
-      {
-        "file": "nx.json",
-        "hash": "2909418347955784845"
-      },
-      {
-        "file": "atlasgo/hcl/schema.hcl",
-        "hash": "3981414584177653900"
+        "file": ".gitignore",
+        "hash": "13568481254727077344"
       },
       {
         "file": "README.md",
         "hash": "1887072548695182922"
       },
       {
+        "file": "atlasgo/hcl/atlas.hcl",
+        "hash": "17515156571277341918"
+      },
+      {
+        "file": "atlasgo/hcl/s_user.hcl",
+        "hash": "14310010521775036096"
+      },
+      {
         "file": "atlasgo/hcl/s_user_kv.hcl",
         "hash": "1772624542091807984"
       },
       {
-        "file": ".env",
-        "hash": "15020461507451449841"
+        "file": "atlasgo/hcl/schema.hcl",
+        "hash": "3981414584177653900"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "5369912736670338423"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "12469589252068091122"
+        "file": "nx.json",
+        "hash": "2909418347955784845"
       },
       {
         "file": "package-lock.json",
         "hash": "12166675380550147210"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "5673190821613406900"
+        "file": "package.json",
+        "hash": "4706130380703257383"
       },
       {
         "file": "packages/.gitkeep",
         "hash": "3244421341483603138"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5369912736670338423"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "5319384524332115475"
       }
     ],
     "projectFileMap": {
-      "@sematica/core": [
+      "@sematica/sematicca--site-com": [
         {
-          "file": "core/README.md",
-          "hash": "15113302954273249151"
+          "file": "sematicca--site-com/.swcrc",
+          "hash": "12307600318232351063"
         },
         {
-          "file": "core/package.json",
-          "hash": "1565647124670789633"
+          "file": "sematicca--site-com/index.d.ts",
+          "hash": "17978550148300837039"
         },
         {
-          "file": "core/src/email-and-password.model.ts",
-          "hash": "16702957215158778414"
+          "file": "sematicca--site-com/next-env.d.ts",
+          "hash": "1320675027584673186"
         },
         {
-          "file": "core/src/email.model.ts",
-          "hash": "553285985065482353"
+          "file": "sematicca--site-com/next.config.js",
+          "hash": "227797574239823241",
+          "deps": [
+            "npm:@nx/next"
+          ]
         },
         {
-          "file": "core/src/fetch-params.model.ts",
-          "hash": "9655502349037002227"
+          "file": "sematicca--site-com/package.json",
+          "hash": "2447505158283173893",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
         },
         {
-          "file": "core/src/handle-api-error.function.ts",
-          "hash": "14010783473818926279"
+          "file": "sematicca--site-com/postcss.config.js",
+          "hash": "15972724582657845432"
         },
         {
-          "file": "core/src/index.ts",
-          "hash": "12593797161786394527"
+          "file": "sematicca--site-com/public/.gitkeep",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "core/src/kv.model.ts",
-          "hash": "17322292278174356214"
+          "file": "sematicca--site-com/public/favicon.ico",
+          "hash": "9303420814833116677"
         },
         {
-          "file": "core/src/page.model.ts",
-          "hash": "16719876661327959315"
+          "file": "sematicca--site-com/src/app/api/hello/route.ts",
+          "hash": "481462152031695647"
         },
         {
-          "file": "core/src/password.model.ts",
-          "hash": "8794552172061818903"
+          "file": "sematicca--site-com/src/app/global.css",
+          "hash": "9232295677464338735"
         },
         {
-          "file": "core/src/user-id-and-password.model.ts",
-          "hash": "10450200246873202694"
+          "file": "sematicca--site-com/src/app/layout.tsx",
+          "hash": "5088422927240608560"
         },
         {
-          "file": "core/src/user.model.ts",
-          "hash": "10843028229737738168"
+          "file": "sematicca--site-com/src/app/page.tsx",
+          "hash": "18090038814184592883"
         },
         {
-          "file": "core/tsconfig.json",
-          "hash": "6774177574860209080"
+          "file": "sematicca--site-com/tailwind.config.js",
+          "hash": "12678958122524329131"
         },
         {
-          "file": "core/tsconfig.lib.json",
-          "hash": "3721279708403627613"
+          "file": "sematicca--site-com/tsconfig.json",
+          "hash": "9610375217618575710"
         }
       ],
       "@sematica/sematicca-system-com": [
@@ -201,6 +201,70 @@
           "hash": "9303420814833116677"
         },
         {
+          "file": "sematicca-system-com/src/app/api/access-tokens/route.ts",
+          "hash": "3245556627271953318"
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/middleware/middleware.ts",
+          "hash": "926301328413502385",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/password-changes/[password_change_id]/route.ts",
+          "hash": "2882723092843407992",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/password-changes/route.ts",
+          "hash": "4057141216344863812",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/sessions/current/route.ts",
+          "hash": "15262897754345581005",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/sessions/current/verify-jwt.function.ts",
+          "hash": "17971794469055842685"
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/sessions/route.ts",
+          "hash": "8429251201299552814",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/users/[user_id]/route.ts",
+          "hash": "15021488792550483435",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/users/auth/route.ts",
+          "hash": "11538906852655890618",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "sematicca-system-com/src/app/api/users/route.ts",
+          "hash": "14661159247536303957",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
           "file": "sematicca-system-com/src/app/global.css",
           "hash": "9232295677464338735"
         },
@@ -223,6 +287,76 @@
         {
           "file": "sematicca-system-com/tsconfig.json",
           "hash": "5742200589743691139"
+        }
+      ],
+      "@sematica/core": [
+        {
+          "file": "core/README.md",
+          "hash": "15113302954273249151"
+        },
+        {
+          "file": "core/package.json",
+          "hash": "1565647124670789633"
+        },
+        {
+          "file": "core/src/email-and-password.model.ts",
+          "hash": "16702957215158778414"
+        },
+        {
+          "file": "core/src/email.model.ts",
+          "hash": "553285985065482353"
+        },
+        {
+          "file": "core/src/fetch-params.model.ts",
+          "hash": "9655502349037002227"
+        },
+        {
+          "file": "core/src/handle-api-error.function.ts",
+          "hash": "14010783473818926279"
+        },
+        {
+          "file": "core/src/index.ts",
+          "hash": "12593797161786394527"
+        },
+        {
+          "file": "core/src/kv.model.ts",
+          "hash": "17322292278174356214"
+        },
+        {
+          "file": "core/src/page.model.ts",
+          "hash": "16719876661327959315"
+        },
+        {
+          "file": "core/src/password.model.ts",
+          "hash": "8794552172061818903"
+        },
+        {
+          "file": "core/src/user-id-and-password.model.ts",
+          "hash": "10450200246873202694"
+        },
+        {
+          "file": "core/src/user-password-change.model.ts",
+          "hash": "2575808640762234314"
+        },
+        {
+          "file": "core/src/user.model.ts",
+          "hash": "10843028229737738168"
+        },
+        {
+          "file": "core/src/users-fetch-params.model.ts",
+          "hash": "15271922305971050132"
+        },
+        {
+          "file": "core/src/zod-error-to-api-error.function.ts",
+          "hash": "17762336763176643898"
+        },
+        {
+          "file": "core/tsconfig.json",
+          "hash": "6774177574860209080"
+        },
+        {
+          "file": "core/tsconfig.lib.json",
+          "hash": "3721279708403627613"
         }
       ],
       "@sematica/knex": [
@@ -270,8 +404,16 @@
           "hash": "4209737550169966735"
         },
         {
+          "file": "knex/src/users/insert-one-user.function.ts",
+          "hash": "2243094004139293842"
+        },
+        {
           "file": "knex/src/users/is-taken-email.function.ts",
           "hash": "3275102308487239617"
+        },
+        {
+          "file": "knex/src/users/is-taken-phone-number.function.ts",
+          "hash": "3314294658444317429"
         },
         {
           "file": "knex/src/users/select-one-user-by-phone.function.ts",
@@ -288,6 +430,18 @@
         {
           "file": "knex/src/users/select-user-id-by-email.function.ts",
           "hash": "6941559451310089967"
+        },
+        {
+          "file": "knex/src/users/select-users-page.function.ts",
+          "hash": "7086991741658787798"
+        },
+        {
+          "file": "knex/src/users/selectOneUserByPhoneWithPin.ts",
+          "hash": "4482259033848453715"
+        },
+        {
+          "file": "knex/src/users/update-one-user.function.ts",
+          "hash": "402412519621439644"
         },
         {
           "file": "knex/src/users/user-exists-by-user-id.function.ts",
@@ -383,72 +537,6 @@
         {
           "file": "react/tsconfig.lib.json",
           "hash": "17807706396807219380"
-        }
-      ],
-      "@sematica/sematicca--site-com": [
-        {
-          "file": "sematicca--site-com/.swcrc",
-          "hash": "12307600318232351063"
-        },
-        {
-          "file": "sematicca--site-com/index.d.ts",
-          "hash": "17978550148300837039"
-        },
-        {
-          "file": "sematicca--site-com/next-env.d.ts",
-          "hash": "1320675027584673186"
-        },
-        {
-          "file": "sematicca--site-com/next.config.js",
-          "hash": "227797574239823241",
-          "deps": [
-            "npm:@nx/next"
-          ]
-        },
-        {
-          "file": "sematicca--site-com/package.json",
-          "hash": "2447505158283173893",
-          "deps": [
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "sematicca--site-com/postcss.config.js",
-          "hash": "15972724582657845432"
-        },
-        {
-          "file": "sematicca--site-com/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "sematicca--site-com/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "sematicca--site-com/src/app/api/hello/route.ts",
-          "hash": "481462152031695647"
-        },
-        {
-          "file": "sematicca--site-com/src/app/global.css",
-          "hash": "9232295677464338735"
-        },
-        {
-          "file": "sematicca--site-com/src/app/layout.tsx",
-          "hash": "5088422927240608560"
-        },
-        {
-          "file": "sematicca--site-com/src/app/page.tsx",
-          "hash": "18090038814184592883"
-        },
-        {
-          "file": "sematicca--site-com/tailwind.config.js",
-          "hash": "12678958122524329131"
-        },
-        {
-          "file": "sematicca--site-com/tsconfig.json",
-          "hash": "9610375217618575710"
         }
       ]
     }

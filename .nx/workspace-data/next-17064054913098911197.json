@@ -1134,5 +1134,76 @@
       ],
       "command": "npx nx watch --projects @sematica/sematicca-system-com --includeDependentProjects -- npx nx build-deps @sematica/sematicca-system-com"
     }
+  },
+  "5980092593384752481": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "sematicca-system-com",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/sematicca-system-com/.next/!(cache)/**/*",
+        "{workspaceRoot}/sematicca-system-com/.next/!(cache)"
+      ],
+      "syncGenerators": [
+        "@nx/js:typescript-sync"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "sematicca-system-com"
+      },
+      "syncGenerators": [
+        "@nx/js:typescript-sync"
+      ]
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "sematicca-system-com"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "sematicca-system-com"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sematica/sematicca-system-com --includeDependentProjects -- npx nx build-deps @sematica/sematicca-system-com"
+    }
   }
 }
