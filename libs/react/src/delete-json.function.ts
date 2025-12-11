@@ -1,5 +1,5 @@
 import {FETCH_CONFIG} from './create-fetch-config.function';
-import {APIError} from "@siku-zangu/core";
+import {APIError} from "@sematicca/core";
 
 export async function deleteJSON<U = void>(
     path: string,

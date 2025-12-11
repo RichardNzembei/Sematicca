@@ -7,8 +7,6 @@ import { isTakenEmail } from "./is-taken-email.function";
 import { DATABASE } from "../create-database.function";
 import { TABLE_NAME_S_USER, TABLE_NAME_S_USER_KV } from "../table-names";
 import { Knex } from 'knex';
-
-// Create the update schema with a properly partial kv object
 const UPDATE_USER_ZOD_SCHEMA = USER_ZOD_SCHEMA.extend({
   kv: z.object({
     email: z.string().email().optional(),

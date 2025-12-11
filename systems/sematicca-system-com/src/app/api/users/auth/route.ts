@@ -1,71 +1,61 @@
 import { NextRequest } from 'next/server';
-import { APIError, USER_ZOD_SCHEMA, AccessToken } from '@siku-zangu/core';
-import { selectOneUserByPhoneWithPin } from '@siku-zangu/knex';
-import { handleAPIError } from '@siku-zangu/core';
+import { APIError, AccessToken } from '@sematicca/core';
+import { selectUserIdAndPasswordByEmail, selectOneUserByUserId } from '@sematicca/knex';
+import { handleAPIError } from '@sematicca/core';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'your-super-secret-key-change-this-in-production';
-const JWT_EXPIRES_IN = '7d';
+const JWT_SECRET = process.env.JWT_SECRET!;
+if (!JWT_SECRET) throw new Error('JWT_SECRET not set');
 
 export async function POST(req: NextRequest) {
   return handleAPIError(async () => {
-    const { phone_number, pin } = await req.json();
-
-    if (!phone_number || !pin || !/^\d{4}$/.test(pin)) {
+    const body = await req.json();
+    const {email, password} = body;
+    if (!email || !password) {
       throw {
         status: 400,
-        message: 'Phone number and 4-digit PIN are required',
+        message: 'Email and password are required',
+        issues: [{message: 'Email and password are required'}]
       } as APIError;
     }
 
-    const normalizedPhoneNumber = phone_number.trim();
-    const user = await selectOneUserByPhoneWithPin(normalizedPhoneNumber);
-    if (!user) {
-      throw { status: 401, message: 'Invalid phone number or PIN' } as APIError;
-    }
-    if (!user.kv.pin) {
+    const normalizedEmail = email.trim().toLowerCase();
+    let userCredentials;
+    try {
+      userCredentials = await selectUserIdAndPasswordByEmail(normalizedEmail);
+    } catch (error) {
       throw {
-        status: 500,
-        message: 'User has no stored PIN',
-        details: 'User has no stored PIN',
+        status: 401,
+        message: 'Invalid email or password',
+        issues: [{message: 'Invalid email or password'}]
       } as APIError;
     }
-    if (!(await bcrypt.compare(pin, user.kv.pin))) {
-      throw { status: 401, message: 'Invalid phone number or PIN' } as APIError;
-    }
-    const userWithoutPin = {
-      ...user,
-      kv: {
-        ...user.kv,
-        pin: undefined,
-      },
-    };
-    const validation = USER_ZOD_SCHEMA.safeParse(userWithoutPin);
-    if (!validation.success) {
-      const issues = validation.error.issues.map((issue) => ({
-        path: issue.path.join('.'),
-        message: issue.message,
-      }));
-      console.error('Validation failed:', issues);
+
+    const {user_id, password: hashedPassword} = await selectUserIdAndPasswordByEmail(normalizedEmail);
+    const match = await bcrypt.compare(password, hashedPassword);
+
+    if (!match) {
       throw {
-        status: 500,
-        message: 'Invalid user data',
-        details: issues,
+        status: 401,
+        message: 'Invalid email or password',
+        issues: [{message: 'Invalid email or password'}]
       } as APIError;
     }
-    const tokenPayload = {
-      user_id: user.user_id,
-      phone_number: user.kv.phone_number,
-      iat: Math.floor(Date.now() / 1000),
-    };
-    const token = jwt.sign(tokenPayload, JWT_SECRET, { expiresIn: JWT_EXPIRES_IN });
-    const expiresIn = Math.floor(Date.now() / 1000) + (7 * 24 * 60 * 60);
+    const fullUser = await selectOneUserByUserId(user_id);
+
+    // Generate JWT token
+    const token = jwt.sign(
+        {user_id, email: normalizedEmail},
+        JWT_SECRET,
+        {expiresIn: '7d'}
+    );
+
     const accessToken: AccessToken = {
       token,
-      expires_in: expiresIn,
-      user: userWithoutPin,
+      expires_in: Math.floor(Date.now() / 1000) + 7 * 24 * 60 * 60,
+      user: fullUser,
     };
-    return Response.json(accessToken, { status: 200 });
+    return Response.json(accessToken);
   });
 }
