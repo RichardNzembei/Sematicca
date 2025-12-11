@@ -290,3 +290,10 @@ DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 4.479373ms - proce
 [NX v22.0.2 Daemon Server] - 2025-12-11T06:53:57.158Z - [WATCHER]: Processing file changes in outputs
 [NX v22.0.2 Daemon Server] - 2025-12-11T06:53:57.227Z - [WATCHER]: Processing file changes in outputs
 [NX v22.0.2 Daemon Server] - 2025-12-11T06:53:57.279Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-12-11T06:58:08.561Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-12-11T06:58:08.564Z - [WATCHER]: .gitignore was modified
+[NX v22.0.2 Daemon Server] - 2025-12-11T06:58:08.566Z - Closed a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-12-11T06:58:08.566Z - Closed a connection. Number of open connections: 0
+[NX v22.0.2 Daemon Server] - 2025-12-11T06:58:08.566Z - [WATCHER]: Stopping the watcher for /home/saintreborn/Documents/Sematicca (sources)
+[NX v22.0.2 Daemon Server] - 2025-12-11T06:58:08.568Z - [WATCHER]: Stopping the watcher for /home/saintreborn/Documents/Sematicca (outputs)
+[NX v22.0.2 Daemon Server] - 2025-12-11T06:58:08.571Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
