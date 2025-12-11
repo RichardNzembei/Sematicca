@@ -1,0 +1,13 @@
+{
+  "name": "sematicca-site-com",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@sematicca/react": "file:../../libs/react",
+    "@sematicca/core": "file:../../libs/core",
+    "@sematicca/knex": "file:../../libs/knex",
+    "next": "~15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

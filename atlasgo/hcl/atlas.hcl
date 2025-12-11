@@ -1,4 +1,4 @@
 variable "database" {
   type    = string
-  default = "sematicca"
+  default = "sematicca_db"
 }

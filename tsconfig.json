@@ -4,19 +4,19 @@
   "files": [],
   "references": [
     {
-      "path": "./sematicca--site-com"
+      "path": "./systems/sematicca--site-com"
     },
     {
-      "path": "./sematicca-system-com"
+      "path": "./systems/sematicca-system-com"
     },
     {
-      "path": "./core"
+      "path": "./libs/core"
     },
     {
-      "path": "./knex"
+      "path": "./libs/react"
     },
     {
-      "path": "./react"
+      "path": "./libs/knex"
     }
   ]
 }

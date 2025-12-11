@@ -17,7 +17,7 @@
           "watchDepsName": "watch-deps"
         }
       },
-      "exclude": ["core/*"]
+      "exclude": ["libs/core/*"]
     },
     {
       "plugin": "@nx/next/plugin",
@@ -32,7 +32,7 @@
     },
     {
       "plugin": "@nx/js/typescript",
-      "include": ["core/*"],
+      "include": ["libs/core/*"],
       "options": {
         "typecheck": { "targetName": "typecheck" }
       }
@@ -52,12 +52,5 @@
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
     }
-  },
-  "projects": {
-    "@sematica/sematicca-system-com": "@sematica/sematicca-system-com",
-    "@sematica/sematicca--site-com": "@sematica/sematicca--site-com",
-    "@sematica/react": "@sematica/react",
-    "@sematica/core": "@sematica/core",
-    "@sematica/knex": "@sematica/knex"
   }
 }

@@ -1,891 +1,823 @@
 {
-  "knex": {
+  "libs/knex": {
     "root": [
-      "knex/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "targets": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.dependsOn": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.cache": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.inputs": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.outputs": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.syncGenerators": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.executor": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options.cwd": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options.command": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.technologies": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.technologies.0": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.description": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help.command": [
-      "knex/tsconfig.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help.example": [
-      "knex/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.dependsOn": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.options": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.cache": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.inputs": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.outputs": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.syncGenerators": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.metadata": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.executor": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.options.cwd": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.options.command": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.metadata.technologies": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.metadata.technologies.0": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.metadata.description": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.metadata.help": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.metadata.help.command": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build.metadata.help.example": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build-deps": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.build-deps.dependsOn": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.watch-deps": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.watch-deps.continuous": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.watch-deps.dependsOn": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.watch-deps.executor": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.watch-deps.options": [
-      "knex/tsconfig.lib.json",
-      "@nx/js/typescript"
-    ],
-    "targets.watch-deps.options.command": [
-      "knex/tsconfig.lib.json",
+      "libs/knex/tsconfig.json",
       "@nx/js/typescript"
     ],
     "name": [
-      "knex/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "tags": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ],
-    "tags.npm:private": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageName": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageVersion": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageExports": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageMain": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.isInPackageManagerWorkspaces": [
-      "knex/package.json",
-      "nx/core/package-json"
-    ]
-  },
-  "react": {
-    "root": [
-      "react/package.json",
-      "nx/core/package-json"
-    ],
-    "targets": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.dependsOn": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.options": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.cache": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.inputs": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.outputs": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.syncGenerators": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.executor": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.options.cwd": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.options.command": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.technologies": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.technologies.0": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.description": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.help": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.help.command": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.help.example": [
-      "react/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "name": [
-      "react/package.json",
-      "nx/core/package-json"
-    ],
-    "tags": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "tags.npm:public": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "metadata.targetGroups": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "metadata.js": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageVersion": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageExports": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageMain": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.isInPackageManagerWorkspaces": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "targets.nx-release-publish": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "targets.nx-release-publish.executor": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "targets.nx-release-publish.dependsOn": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ],
     "targets.nx-release-publish.options": [
-      "react/package.json",
+      "libs/knex/package.json",
       "nx/core/package-json"
     ]
   },
-  "sematicca--site-com": {
+  "libs/react": {
     "root": [
-      "sematicca--site-com/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "targets": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.options": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.dependsOn": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.cache": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.inputs": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.outputs": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.syncGenerators": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.executor": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.options.cwd": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.options.tty": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build.options.command": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.continuous": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.options": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.syncGenerators": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.executor": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.options.cwd": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.options.command": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.continuous": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.dependsOn": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.executor": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options.cwd": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options.command": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.continuous": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.options": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.dependsOn": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.executor": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.options.cwd": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.options.command": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build-deps": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.build-deps.dependsOn": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.continuous": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.dependsOn": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.executor": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.options": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.options.command": [
-      "sematicca--site-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "name": [
-      "sematicca--site-com/package.json",
-      "nx/core/package-json"
-    ],
-    "tags": [
-      "sematicca--site-com/package.json",
-      "nx/core/package-json"
-    ],
-    "tags.npm:private": [
-      "sematicca--site-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups": [
-      "sematicca--site-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js": [
-      "sematicca--site-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageName": [
-      "sematicca--site-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageVersion": [
-      "sematicca--site-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.isInPackageManagerWorkspaces": [
-      "sematicca--site-com/package.json",
-      "nx/core/package-json"
-    ]
-  },
-  "sematicca-system-com": {
-    "root": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.continuous": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.options": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.syncGenerators": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.executor": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.options.cwd": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.dev.options.command": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.continuous": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.dependsOn": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.executor": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options.cwd": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options.command": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.continuous": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.options": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.dependsOn": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.executor": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.options.cwd": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.serve-static.options.command": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.continuous": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.dependsOn": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.executor": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.options": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.watch-deps.options.command": [
-      "sematicca-system-com/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "name": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "sematicca-system-com/package.json",
-      "nx/core/package-json"
-    ],
-    "tags.npm:private": [
-      "sematicca-system-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups": [
-      "sematicca-system-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js": [
-      "sematicca-system-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageName": [
-      "sematicca-system-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageVersion": [
-      "sematicca-system-com/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.isInPackageManagerWorkspaces": [
-      "sematicca-system-com/package.json",
-      "nx/core/package-json"
-    ],
-    "$schema": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.executor": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.buildTarget": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.dev": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production.dev": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production.buildTarget": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.executor": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.outputs": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.outputPath": [
-      "sematicca-system-com/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "core": {
-    "root": [
-      "core/package.json",
-      "nx/core/package-json"
-    ],
-    "targets": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.dependsOn": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.cache": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.inputs": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.outputs": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.syncGenerators": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.executor": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options.cwd": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options.command": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.technologies": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.technologies.0": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.description": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help.command": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help.example": [
-      "core/tsconfig.json",
+      "libs/react/tsconfig.json",
       "@nx/js/typescript"
     ],
     "name": [
-      "core/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "tags": [
-      "core/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
-    "tags.npm:private": [
-      "core/package.json",
+    "tags.npm:public": [
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "metadata.targetGroups": [
-      "core/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "metadata.js": [
-      "core/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
-      "core/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageVersion": [
-      "core/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageExports": [
-      "core/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageMain": [
-      "core/package.json",
+      "libs/react/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.isInPackageManagerWorkspaces": [
-      "core/package.json",
+      "libs/react/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "libs/react/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/react/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/react/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/react/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "systems/sematicca--site-com": {
+    "root": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.cache": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.inputs": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.outputs": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.syncGenerators": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.executor": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.tty": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.command": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.continuous": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.syncGenerators": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.executor": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.command": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.continuous": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.dependsOn": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.executor": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.cwd": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.command": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.cwd": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.command": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "systems/sematicca--site-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "name": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "systems/sematicca--site-com/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "systems/sematicca-system-com": {
+    "root": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.continuous": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.syncGenerators": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.executor": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.command": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.continuous": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.dependsOn": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.executor": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.cwd": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.command": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.cwd": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.command": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "systems/sematicca-system-com/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "name": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "systems/sematicca-system-com/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "systems/sematicca-system-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "systems/sematicca-system-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "systems/sematicca-system-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "systems/sematicca-system-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "systems/sematicca-system-com/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "systems/sematicca-system-com/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.dev": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.dev": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "systems/sematicca-system-com/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/core": {
+    "root": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "libs/core/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/core/package.json",
       "nx/core/package-json"
     ]
   }

@@ -16,6 +16,12 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@sematica/source"]
+    "customConditions": ["@sematica/source"],
+    "baseUrl": ".",
+    "paths": {
+      "@sematicca/core": ["libs/core/src/index.ts"],
+      "@sematicca/knex": ["libs/knex/src/index.ts"],
+      "@sematicca/react": ["libs/react/src/index.ts"]
+    }
   }
 }
