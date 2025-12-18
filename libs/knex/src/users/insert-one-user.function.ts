@@ -14,7 +14,7 @@ export const USER_TABLE_COLUMN_ALIASES = {
   password_hash: '_password_hash.v',
   pin: '_pin.v',
   full_name: '_full_name.v',
-  is_active: DATABASE.raw('coalesce(_is_active.v, "true")'), // default to active
+  is_active: DATABASE.raw('coalesce(_is_active.v, "true")'),
 };
 
 export const USER_TABLE_COLUMN_ALIASES_WITH_PASSWORD = {

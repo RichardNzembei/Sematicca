@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from 'react';
-import { User, UpdateUser, APIError } from '@siku-zangu/core';
+import { User, APIError } from '@sematicca/core';
 import { getJSON } from '../get-json.function';
 import { postJSON } from '../post-json.function';
 import { patchJSON } from '../patch-json.function';

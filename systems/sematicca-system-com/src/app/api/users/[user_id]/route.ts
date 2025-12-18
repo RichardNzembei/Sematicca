@@ -1,6 +1,6 @@
 import {NextRequest} from 'next/server';
-import {deleteOneUserByUserId, selectOneUserByUserId, updateOneUser} from '@siku-zangu/knex';
-import {handleAPIError} from "@siku-zangu/core";
+import {deleteOneUserByUserId, selectOneUserByUserId, updateOneUser} from '@sematicca/knex';
+import {handleAPIError} from "@sematicca/core";
 
 export async function GET(req: NextRequest, {params}: { params: Promise<{ user_id: string }> }) {
   return handleAPIError(async () => {
