@@ -1,5 +1,5 @@
 import {FETCH_CONFIG} from './create-fetch-config.function';
-import {APIError} from "@siku-zangu/core";
+import {APIError} from "@sematicca/core";
 
 export async function postJSON<T, U>(path: string, json: T, headers?: HeadersInit): Promise<U> {
     return fetch(`${FETCH_CONFIG.host}${path}`,

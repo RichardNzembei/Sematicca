@@ -1,8 +1,8 @@
 'use server'
 
-import {APIError} from "libs/core/src";
+import {APIError} from "./api-error.model";
 
-export async function handleAPIError(fn: () => Promise<Response | void>) {
+export async function handleAPIError(fn: () => Promise<Response>) {
     try {
         const response = await fn();
         if (response) return response;
