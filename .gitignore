@@ -36,3 +36,11 @@ Thumbs.db
 *.db
 *.db-shm
 *.db-wal
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temp
+tmp/
+temp/
